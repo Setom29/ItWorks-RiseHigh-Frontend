@@ -1,0 +1,32 @@
+#container {
+    background-color: #7070707d;
+    height: 137px;
+    width: 215px;
+    box-shadow: 10px 5px 5px black, 3px 5px 5px black;
+}
+
+#first {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#second {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+.box {}
+
+.prompt {}
+
+.button {
+    background-color: #40e099;
+    border: 1px solid #74ff89;
+}
