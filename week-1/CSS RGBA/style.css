@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://cs1.htmlacademy.ru/blog/html/how-to-add-image/12.jpg?v1.0.15);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.first-block{
+    padding-top: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: rgba(88, 24, 98, 0.543);
+    color: rgba(41, 1, 47, 0.66);
+    width: 55%;
+    height: 60px;
+    font-size: 30px;
+}
+
+.second-block{
+    padding-top: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: rgb(88, 24, 98);
+    width: 55%;
+    height: 60px;
+    font-size: 30px;
+}
