@@ -1,0 +1,63 @@
+#form {
+    height: 275px;
+    max-width: 250px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+    grid-template-areas:
+        "n n"
+        "s b"
+        "p p"
+        "e btn ";
+    gap: 25px;
+    padding: 20px 20px;
+    margin: 20% auto;
+    background-color: #62BD9D;
+    border: 2px solid #52A186;
+}
+
+#name {
+    grid-area: n;
+    /* width: 100%; */
+}
+
+.input{
+    width: 100%;
+    height: 36px;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+#salary {
+    grid-area: s;
+}
+
+
+
+#birthday {
+    grid-area: b;
+}
+
+#phone {
+    grid-area: p;
+}
+
+#form-error {
+    grid-area: e;
+    color: red;
+}
+
+#button {
+    height: 30px;
+    grid-area: btn;
+    background-color: #52A186;
+    box-shadow: 5px 5px 5px #52A186;
+    text-align: center;
+    padding-top: 6px; 
+    border: 0;   
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: #3d7964;
+}
+
