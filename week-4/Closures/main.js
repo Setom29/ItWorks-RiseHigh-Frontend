@@ -38,22 +38,11 @@ bank.showBalance() //should print 950
 const SongsManager = function () {
     const base = "https://www.youtube.com/watch?v=";
     const songLib = {};
-    const addSong = (type, url) => {
-        if (songLib[type]) {
-            songLib[type].push(url.slice(32))
-        } else {
-            songLib[type] = [url.slice(32)]
-        }
+    const addSong = (name, url) => {
+        songLib[name] = [url.slice(32)]
     };
-    const getSong = (type) => {
-        if (songLib[type]) {
-            for (const song of songLib[type]) {
-                console.log(base + song)
-            }
-        } else {
-            console.log("wrong type")
-        }
-    }
+    const getSong = name => console.log(base + songLib[name])
+
     return { addSong: addSong, getSong: getSong }
 }
 const songsManager = SongsManager()
