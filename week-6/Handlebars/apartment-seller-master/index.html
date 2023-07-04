@@ -84,20 +84,17 @@
             <div class="l-rooms label">Rooms:</div>
             <div class="rooms">{{rooms}}</div>
 
+            <div class="l-park label">Parking:</div>
             {{#if parking}}
-              <div class="l-park label">Park:</div>
               <div class="park"><i class="fa-solid fa-square-parking"></i></div>
             {{else}}
-              <div class="l-park label">Park:</div>
               <div class="park">-</div>
             {{/if}}
-
+            <div class="l-immediate label">Contact:</div>
             {{#if immediate}}
-              <div class="l-immediate label">Contact:</div>
               <div class="immediate"><div>{{contactDetails.name}}</div>
                 <div>({{contactDetails.email}})</div></div>
             {{else}}
-              <div class="l-immediate label">Contact:</div>
               <div class="immediate">-</div>
 
             {{/if}}
