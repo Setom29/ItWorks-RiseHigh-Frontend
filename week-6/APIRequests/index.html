@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="goog-books">
+        <input type="text" class="goog-books__value-input">
+        <select name="goog-books__type-dropdown" class="goog-books__type-dropdown"> 
+            <option value="title">Title</option> 
+            <option value="isbn">ISBN</option>
+        </select>
+        <button class="goog-books__button">Submit</button>
+    </div>
+    <div class="giphy-block">
+        <input type="text" class="giphy-block__value-input" placeholder="search">
+        <input type="text" class="giphy-block__token-input" placeholder="token">
+        <button class="giphy-block__button">Search</button>
+        <iframe class="giphy-block__container"></iframe>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
